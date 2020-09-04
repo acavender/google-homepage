@@ -1,0 +1,31 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.menu_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#about {background-color: red;}
+#store {background-color: orange;}
+#gmail {background-color: yellow;}
+#images {background-color: blue;}
+#apps {background-color: green;}
+#sign_in {background-color: indigo;}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
