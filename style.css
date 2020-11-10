@@ -1,3 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    color:#000000;
+    margin: auto;
+    padding-top: 15px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-left: 5px;
+    display: flex;
+    padding-right: 30px;
+}
+
+.menu-item {
+    padding: 0px 0px 0px 15px;
+}
+
+.menu-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+}
+
 .search {
     display: flex;
     justify-content: center;
@@ -8,19 +40,94 @@
     justify-content: center;
 }
 
+.buttons {
+    margin: auto;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchbutton {
+    background-color: #F4F4F4;
+    border: 1px #F4F4F4;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    font-size: 14px;
+    color: #5F6368;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.searchbutton:hover {
+    color: black;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.footer-menu {
+    font-size: 14px;
+    color: #606369;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu a {
+    color: #606369;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+.footer-menu-item {
+    padding: 10px;
+}
+
 img {
     width: 272px;
     height: 92px;
-    padding: 109px 0px 0px;
-    margin-bottom: 40px;
+    padding: 125px 0px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 input {
     width: 582px;
     height: 44px;
     padding: 5px 8px 0px 14px;
-    border-radius: 30px;
+    border-radius: 24px;
     border: 1px solid #DFE1E5;
+    margin-bottom: 20px;
+    background-image: 
+        url(/assets/images/search-line.svg),
+        url(/assets/images/microphone-line.svg);
+    background-size: 15px;
+    background-position: 
+        2%,
+        98%;
+    background-repeat: no-repeat;
 }
 
+input:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
 
+ul {
+    list-style-type: none;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 20px;
+}
